@@ -1,0 +1,1076 @@
+import ShopSection from "./src/components/ShopSection"
+
+featureSection/////////////////////////////////////////////
+
+// import { Truck, Gift, RefreshCcw, Store } from "lucide-react";
+
+// const features = [
+//   {
+//     icon: <Store className="h-8 w-8 text-pink-500" />,
+//     title: "Pick up in store",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+//   {
+//     icon: <Gift className="h-8 w-8 text-pink-500" />,
+//     title: "Special packaging",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+//   {
+//     icon: <RefreshCcw className="h-8 w-8 text-pink-500" />,
+//     title: "Free global returns",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+//   {
+//     icon: <Truck className="h-8 w-8 text-pink-500" />,
+//     title: "Book An Appointment",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+// ];
+
+// const FeatureSection = () => {
+//   return (
+//     <section className="py-12 bg-[#E8E9F3]">
+//       <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+//         {features.map((feature, index) => (
+//           <div key={index} className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+//             <div className="mb-4">{feature.icon}</div>
+//             <h3 className="text-lg font-semibold text-gray-800">{feature.title}</h3>
+//             <p className="text-sm text-gray-600 mt-2">{feature.desc}</p>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default FeatureSection;
+
+
+
+
+
+
+
+
+
+
+
+// import { Truck, Gift, RefreshCcw, Store } from "lucide-react";
+
+// const features = [
+//   {
+//     icon: <Store className="h-8 w-8 text-pink-500" />,
+//     title: "Pick up in store",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+//   {
+//     icon: <Gift className="h-8 w-8 text-pink-500" />,
+//     title: "Special packaging",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+//   {
+//     icon: <RefreshCcw className="h-8 w-8 text-pink-500" />,
+//     title: "Free global returns",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+//   {
+//     icon: <Truck className="h-8 w-8 text-pink-500" />,
+//     title: "Book An Appointment",
+//     desc: "At imperdiet dui accumsan sit amet nulla risus est ultricies quis.",
+//   },
+// ];
+
+// const FeatureSection = () => {
+//   return (
+//     <section className="py-12 bg-[#ffffff] flex flex-col justify-between">
+//       <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+//         {features.map((feature, index) => (
+//           <div
+//             key={index}
+//             className="bg-pink-50 border border-pink-200 p-6 rounded-2xl shadow-sm hover:shadow-md hover:border-pink-400 transition-all duration-300"
+//           >
+//             <div className="mb-4">{feature.icon}</div>
+//             <h3 className="text-lg font-semibold text-gray-800">{feature.title}</h3>
+//             <p className="text-sm text-gray-600 mt-2">{feature.desc}</p>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default FeatureSection;
+
+
+
+
+
+
+
+footer//////////////////////////////////////////
+
+// import React from 'react';
+
+// const Footer = () => {
+//   return (
+//     <div className='w-full h-full mt-10 text-black'>
+//       <div className='bg-[#CECECE] text-center'>
+//         <h3 className='p-3'>Back To Top</h3>
+//       </div>
+
+//       <div className='flex justify-between py-10 bg-[#CECECE]'>
+//         <div className='max-w-6xl mx-auto'>
+//           <h3 className='text-lg font-semibold mb-2'>Get to Know Us</h3>
+//           <ul className='space-y-1 text-sm'>
+//             <li><a href='#' className='hover:underline'>About Kiranshop</a></li>
+//             <li><a href='#' className='hover:underline'>Careers</a></li>
+//             <li><a href='#' className='hover:underline'>Press Releases</a></li>
+//             <li><a href='#' className='hover:underline'>Kiranshop Science</a></li>
+//           </ul>
+//         </div>
+
+//         <div className='max-w-6xl mx-auto'>
+//           <h3 className='text-lg font-semibold mb-2'>Connect with Us</h3>
+//           <ul className='space-y-1 text-sm'>
+//             <li><a href='#' className='hover:underline'>Facebook</a></li>
+//             <li><a href='#' className='hover:underline'>Twitter</a></li>
+//             <li><a href='#' className='hover:underline'>Instagram</a></li>
+//           </ul>
+//         </div>
+
+//         <div className='max-w-6xl mx-auto'>
+//           <h3 className='text-lg font-semibold mb-2'>Make Money with Us</h3>
+//           <ul className='space-y-1 text-sm'>
+//             <li><a href='#' className='hover:underline'>Sell on Kiranshop</a></li>
+//             <li><a href='#' className='hover:underline'>Sell under Kiranshop Accelerator</a></li>
+//             <li><a href='#' className='hover:underline'>Protect and Build Your Brand</a></li>
+//             <li><a href='#' className='hover:underline'>Kiranshop Global Selling</a></li>
+//             <li><a href='#' className='hover:underline'>Supply to Kiranshop</a></li>
+//             <li><a href='#' className='hover:underline'>Become an Affiliate</a></li>
+//             <li><a href='#' className='hover:underline'>Fulfilment by Kiranshop</a></li>
+//             <li><a href='#' className='hover:underline'>Advertise Your Products</a></li>
+//             <li><a href='#' className='hover:underline'>Kiranshop Pay on Merchants</a></li>
+//           </ul>
+//         </div>
+
+//         <div className='max-w-6xl mx-auto'>
+//           <h3 className='text-lg font-semibold mb-2'>Let Us Help You</h3>
+//           <ul className='space-y-1 text-sm'>
+//             <li><a href='#' className='hover:underline'>Your Account</a></li>
+//             <li><a href='#' className='hover:underline'>Returns Centre</a></li>
+//             <li><a href='#' className='hover:underline'>Recalls and Product Safety Alerts</a></li>
+//             <li><a href='#' className='hover:underline'>100% Purchase Protection</a></li>
+//             <li><a href='#' className='hover:underline'>Kiranshop App Download</a></li>
+//             <li><a href='#' className='hover:underline'>Help</a></li>
+//           </ul>
+//         </div>
+//       </div>
+
+//       {/* <div className='flex justify-center bg-[#f1f1f1] border-t border-zinc-500 p-1'>
+//         <img className='h-20' src='https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png-1.webp' alt='Amazon Logo' />
+//       </div> */}
+
+//       <div className='bg-[#CECECE] text-[#8f8f8f] py-6'>
+//         <div className='max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6'>
+//           <div>
+//             <h3 className='text-lg font-semibold'>AbeBooks</h3>
+//             <p className='text-sm text-gray-300'>Books, art & collectibles</p>
+//           </div>
+//           <div>
+//             <h3 className='text-lg font-semibold'>Kiranshop Web Services</h3>
+//             <p className='text-sm text-gray-300'>Scalable Cloud Computing Services</p>
+//           </div>
+//           <div>
+//             <h3 className='text-lg font-semibold'>Audible</h3>
+//             <p className='text-sm text-gray-300'>Download Audio Books</p>
+//           </div>
+//           <div>
+//             <h3 className='text-lg font-semibold'>IMDb</h3>
+//             <p className='text-sm text-gray-300'>Movies, TV & Celebrities</p>
+//           </div>
+//           <div>
+//             <h3 className='text-lg font-semibold'>Shopbop</h3>
+//             <p className='text-sm text-gray-300'>Designer Fashion Brands</p>
+//           </div>
+//           <div>
+//             <h3 className='text-lg font-semibold'>Kiranshop Business</h3>
+//             <p className='text-sm text-gray-300'>Everything For Your Business</p>
+//           </div>
+//           <div>
+//             <h3 className='text-lg font-semibold'>Prime Now</h3>
+//             <p className='text-sm text-gray-300'>2-Hour Delivery on Everyday Items</p>
+//           </div>
+//           <div>
+//             <h3 className='text-lg font-semibold'>Kiranshop Prime Music</h3>
+//             <p className='text-sm text-gray-300'>100 million songs, ad-free<br />Over 15 million podcast episodes</p>
+//           </div>
+//         </div>
+//       </div>
+
+//       <div className=' bg-[#CECECE] text-[#8f8f8f] text-center py-4'>
+//         <p className='text-sm space-x-4'>
+//           <a href='#' className='hover:underline'>Conditions of Use & Sale</a>
+//           <span>|</span>
+//           <a href='#' className='hover:underline'>Privacy Notice</a>
+//           <span>|</span>
+//           <a href='#' className='hover:underline'>Interest-Based Ads</a>
+//         </p>
+//         <p className='text-xs mt-2'>© 1996-2025, Kiranshop.com, Inc. or its affiliates</p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Footer;
+
+
+
+
+
+
+
+
+Navbar/////////////////////////////////////////////////////////////
+
+// import React, { useState } from "react";
+// import { FaShoppingCart, FaUser, FaBars, FaTimes } from "react-icons/fa";
+// import { NavLink, Link } from "react-router-dom";
+// import { IoLocationOutline } from 'react-icons/io5';
+// import { useSelector } from "react-redux";
+
+
+// const Navbar = () => {
+//    const cartItems = useSelector((state) => state.cart.cartItems);
+//   const [menuOpen, setMenuOpen] = useState(false);
+//   const [shopDropdown, setShopDropdown] = useState(false);
+
+//   return (
+//     <header  className="w-full px-6 py-4   font-poppins relative z-50">
+//       <div className="max-w-7xl mx-auto py-4 flex justify-between  items-center fixed top-0 w-full z-50 bg-white/10 backdrop-blur-md border-b border-white/20">
+
+        
+//         {/* Logo */}
+//         <Link to="/" className="text-2xl font-bold text-gray-800">
+//           Kaira.
+//         </Link>
+
+//         {/* Desktop Nav */}
+//         <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-700 items-center relative">
+//           <NavLink
+//             to="/"
+//             className={({ isActive }) =>
+//               `relative pb-1 transition hover:text-pink-500 ${
+//                 isActive ? "text-pink-500 font-semibold after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-pink-500" : ""
+//               }`
+//             }
+//           >
+//             Home
+//           </NavLink>
+
+//           {/* Shop Dropdown */}
+//           {/* <div
+//             className="relative"
+//             onMouseEnter={() => setShopDropdown(true)}
+//             onMouseLeave={() => setShopDropdown(false)}
+//           >
+//             <span className="cursor-pointer hover:text-pink-500">Shop</span>
+//             {shopDropdown && (
+//               <div className="absolute top-full left-0 mt-1 bg-white shadow-md rounded-md py-2 z-50">
+//                 <NavLink to="/shop/men" className="block px-4 py-2 text-sm hover:bg-gray-100">Men</NavLink>
+//                 <NavLink to="/shop/women" className="block px-4 py-2 text-sm hover:bg-gray-100">Women</NavLink>
+//                 <NavLink to="/shop/electronics" className="block px-4 py-2 text-sm hover:bg-gray-100">Electronics</NavLink>
+//               </div>
+//             )}
+//           </div> */}
+
+//           <div
+//   className="relative inline-block"
+//   onMouseEnter={() => setShopDropdown(true)}
+//   onMouseLeave={() => setShopDropdown(false)}
+// >
+//   <span className="cursor-pointer hover:text-pink-500 select-none">Shop</span>
+//   {shopDropdown && (
+//     <div className="absolute top-full left-0 mt-1 bg-white shadow-md rounded-md py-2 z-50 min-w-[150px]">
+//       <NavLink to="/shop/men" className="block px-4 py-2 text-sm hover:bg-gray-100">Men</NavLink>
+//       <NavLink to="/shop/women" className="block px-4 py-2 text-sm hover:bg-gray-100">Women</NavLink>
+//       <NavLink to="/shop/electronics" className="block px-4 py-2 text-sm hover:bg-gray-100">Electronics</NavLink>
+//     </div>
+//   )}
+// </div>
+
+
+//           <NavLink
+//             to="/categories"
+//             className={({ isActive }) =>
+//               `relative pb-1 transition hover:text-pink-500 ${
+//                 isActive ? "text-pink-500 font-semibold after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-pink-500" : ""
+//               }`
+//             }
+//           >
+//             Categories
+//           </NavLink>
+
+//           <NavLink
+//             to="/contact"
+//             className={({ isActive }) =>
+//               `relative pb-1 transition hover:text-pink-500 ${
+//                 isActive ? "text-pink-500 font-semibold after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-pink-500" : ""
+//               }`
+//             }
+//           >
+//             Contact
+//           </NavLink>
+
+//           <NavLink
+//             to="/register"
+//             className={({ isActive }) =>
+//               `relative pb-1 transition hover:text-pink-500 ${
+//                 isActive ? "text-pink-500 font-semibold after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-pink-500" : ""
+//               }`
+//             }
+//           >
+//             Register
+//           </NavLink><NavLink
+//             to="/categories"
+//             className={({ isActive }) =>
+//               `relative pb-1 transition hover:text-pink-500 ${
+//                 isActive ? "text-pink-500 font-semibold after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-pink-500" : ""
+//               }`
+//             }
+//           >
+//             Login
+//           </NavLink>
+
+
+
+//         </nav>
+
+//         {/* Right Section */}
+//         <div className="flex items-center gap-4">
+//           {/* Search */}
+//           <input
+//             type="text"
+//             placeholder="Search products..."
+//             className="hidden lg:block px-3 py-1.5 border rounded-md text-sm border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500"
+//           />
+
+//           {/* User Icon */}
+//           <Link to="/login" className="text-gray-600 hover:text-pink-500 text-lg">
+//             <FaUser />
+//           </Link>
+
+//           {/* Cart Icon */}
+//           <Link to="/goo" className="relative text-gray-600 hover:text-pink-500 text-lg">
+//             <FaShoppingCart />
+//             <span className="absolute -top-2 -right-2 text-[10px] bg-pink-500 text-white w-4 h-4 rounded-full flex items-center justify-center">
+//             {cartItems.length}
+//             </span>
+//           </Link>
+
+//           {/* Hamburger */}
+//           <button
+//             onClick={() => setMenuOpen(!menuOpen)}
+//             className="text-gray-600 text-xl md:hidden"
+//           >
+//             {menuOpen ? <FaTimes /> : <FaBars />}
+//           </button>
+//         </div>
+//       </div>
+
+//       {/* Mobile Menu */}
+//       {menuOpen && (
+//         <div className="md:hidden mt-4 px-4 space-y-3 pb-4 bg-white shadow-md">
+//           <NavLink to="/" className="block py-1 text-sm text-gray-700" onClick={() => setMenuOpen(false)}>
+//             Home
+//           </NavLink>
+//           <div className="block">
+//             <span className="block py-1 text-sm text-gray-700">Shop</span>
+//             <div className="ml-4">
+//               <NavLink to="/shop/men" className="block py-1 text-sm" onClick={() => setMenuOpen(false)}>
+//                 Men
+//               </NavLink>
+//               <NavLink to="/shop/women" className="block py-1 text-sm" onClick={() => setMenuOpen(false)}>
+//                 Women
+//               </NavLink>
+//               <NavLink to="/shop/electronics" className="block py-1 text-sm" onClick={() => setMenuOpen(false)}>
+//                 Electronics
+//               </NavLink>
+//             </div>
+//           </div>
+//           <NavLink to="/categories" className="block py-1 text-sm text-gray-700" onClick={() => setMenuOpen(false)}>
+//             Categories
+//           </NavLink>
+//           <NavLink to="/contact" className="block py-1 text-sm text-gray-700" onClick={() => setMenuOpen(false)}>
+//             Contact
+//           </NavLink>
+//         </div>
+//       )}
+//     </header>
+//   );
+// };
+
+// export default Navbar;
+
+productdetailpage//////////////////////////////////////////////////////////////////////
+
+
+// import React, { useEffect, useState } from 'react';
+// import { useParams } from 'react-router-dom';
+// import { useDispatch } from 'react-redux';
+// import { addToCart } from '../redux/cartslice';
+// import Navbar from './Navbar';
+
+// import FeatureSection from './FeatureSection';
+// import Footer from './Footer'
+
+// const ProductDetails = () => {
+//   const { id } = useParams();
+//   const [product, setProduct] = useState(null);
+//   const dispatch = useDispatch();
+
+//   useEffect(() => {
+//     const fetchProduct = async () => {
+//       const res = await fetch(`https://fakestoreapi.com/products/${id}`);
+//       const data = await res.json();
+//       setProduct(data);
+//     };
+//     fetchProduct();
+//   }, [id]);
+
+//   if (!product) return <p className="text-center mt-10">Loading...</p>;
+
+//   return (
+//     <>
+//     <Navbar/>
+   
+    
+   
+//     <div className="max-w-5xl h-120 flex justify-center mx-auto p-5 mt-10 bg-white rounded-lg">
+//       <div className="flex flex-col md:flex-row items-center gap-6">
+//         <img
+//           src={product.image}
+//           alt={product.title}
+//           className="w-60 h-60 object-contain"
+//         />
+//         <div>
+//           <h1 className="text-2xl font-bold mb-2">{product.title}</h1>
+//           <p className="text-gray-600 mb-3">{product.description}</p>
+//           <p className="text-blue-600 font-semibold text-lg mb-3">₹{product.price}</p>
+//           <button
+//             onClick={() => dispatch(addToCart(product))}
+//             className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+//           >
+//             ➕ Add to Cart
+//           </button>
+//         </div>
+//       </div>
+//     </div>
+//     <FeatureSection/>
+//     <Footer/>
+
+//     </>
+//   );
+// };
+
+// export default ProductDetails;
+
+
+
+
+
+
+
+
+
+
+
+register///////////////////////////////////////////////
+
+
+
+// import React, { useState } from 'react';
+
+// const Register = () => {
+//   const [formData, setFormData] = useState({
+//     username: "",
+//     email: "",
+//     password: "",
+    
+//   });
+
+//   const handleChange = (e) => {
+//     setFormData(prev => ({
+//       ...prev,
+//       [e.target.name]: e.target.value
+//     }));
+//   };
+
+//   const handleSubmit = async (e) => {
+//     e.preventDefault();
+//     try {
+//       const res = await fetch("/api/register", {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json"
+//         },
+//         body: JSON.stringify(formData)
+//       });
+
+//       const data = await res.text();
+    
+//       alert(data); // Server ka response show karo
+//     } catch (error) {
+//        setFormData({
+//     username: "",
+//     email: "",
+//     password: "",
+    
+//   })
+//       console.error("Error during register:", error);
+//     }
+
+   
+//   };
+
+//   return (
+//     <div style={{ padding: "20px" }}>
+//       <h2>Register</h2>
+//       <form onSubmit={handleSubmit}>
+        
+//         <input name="username" type="text" placeholder="Username" onChange={handleChange} required /><br />
+//         <input name="email" type="email" placeholder="Email" onChange={handleChange} required /><br />
+//         <input name="password" type="password" placeholder="Password" onChange={handleChange} required /><br />
+  
+//         <button type="submit">Register</button>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default Register;
+
+
+
+
+
+
+
+//  <div className="min-h-screen flex items-center justify-center bg-bg-[#f1f1f0] px-4">
+//       <div className="bg-white p-8 rounded-2xl shadow-2xl max-w-md w-full">
+//         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
+//           Create an account
+//         </h2>
+//         <form className="space-y-5" onSubmit={handleSubmit}>
+//           {/* Username */}
+//           <div className="relative">
+//             <FiUser className="absolute top-4 left-4 text-gray-400" />
+//             <input
+//               type="text"
+//               name="username"
+//               value={formData.username}
+//               onChange={handleChange}
+//               placeholder="Username"
+//               className="pl-12 pr-4 py-3 rounded-xl border w-full outline-none focus:ring-2 focus:ring-purple-300"
+//               required
+//             />
+//           </div>
+
+//           {/* Email */}
+//           <div className="relative">
+//             <FiMail className="absolute top-4 left-4 text-gray-400" />
+//             <input
+//               type="email"
+//               name="email"
+//               value={formData.email}
+//               onChange={handleChange}
+//               placeholder="Email"
+//               className="pl-12 pr-4 py-3 rounded-xl border w-full outline-none focus:ring-2 focus:ring-purple-300"
+//               required
+//             />
+//           </div>
+
+//           {/* Password */}
+//           <div className="relative">
+//             <FiLock className="absolute top-4 left-4 text-gray-400" />
+//             <input
+//               type={showPassword ? "text" : "password"}
+//               name="password"
+//               value={formData.password}
+//               onChange={handleChange}
+//               placeholder="Password"
+//               className="pl-12 pr-16 py-3 rounded-xl border w-full outline-none focus:ring-2 focus:ring-purple-300"
+//               required
+//             />
+//             <button
+//               type="button"
+//               className="absolute top-3.5 right-4 text-sm text-purple-600 hover:underline"
+//               onClick={() => setShowPassword(!showPassword)}
+//             >
+//               {showPassword ? "Hide" : "Show"}
+//             </button>
+//           </div>
+
+//           <button
+//             type="submit"
+//             className="w-full bg-purple-600 hover:bg-purple-700 transition-all text-white py-3 rounded-xl font-semibold"
+//           >
+//             Sign Up
+//           </button>
+
+//           <p className="text-center text-sm text-gray-500">
+//             Already have an account?
+//             <NavLink to="/login" className="text-purple-600 hover:underline ml-1">
+//               Log In
+//             </NavLink>
+//           </p>
+//         </form>
+//       </div>
+//     </div>
+
+
+
+ShopSection////////////////////////////////////////////
+
+
+// import { useParams, Link } from 'react-router-dom';
+// import React, { useEffect, useState } from 'react';
+// import { useDispatch } from 'react-redux';
+// import { addToCart } from '../redux/cartslice';
+
+// const ShopSection = () => {
+//   const { category } = useParams(); 
+//   const [items, setItems] = useState([]);
+//   const [sortOrder, setSortOrder] = useState("default");
+//   const dispatch = useDispatch();
+
+//   useEffect(() => {
+//     const DataFetch = async () => {
+//       const response = await fetch("https://fakestoreapi.com/products");
+//       const data = await response.json();
+//       setItems(data);
+//     };
+//     DataFetch();
+//   }, [category]);
+
+//   const handleAddToCart = (item) => {
+//     dispatch(addToCart(item));
+//   };
+
+//   // Step 1: Filter based on category
+//   const filteredItems = items.filter((item) => {
+//     if (!category) return true;
+//     if (category === "men") return item.category === "men's clothing";
+//     if (category === "women") return item.category === "women's clothing";
+//     if (category === "electronics") return item.category === "electronics";
+//     return true;
+//   });
+
+//   // Step 2: Sort filtered items
+//   const getSortedItems = () => {
+//     if (sortOrder === "lowToHigh") {
+//       return [...filteredItems].sort((a, b) => a.price - b.price);
+//     } else if (sortOrder === "highToLow") {
+//       return [...filteredItems].sort((a, b) => b.price - a.price);
+//     } else {
+//       return filteredItems;
+//     }
+//   };
+
+//   const finalItems = getSortedItems();
+
+//   return (
+//    <div className="w-full">
+//   {/* Sorting Dropdown */}
+//   <div className="flex justify-end w-full px-5 mt-4">
+//     <select
+//       className="p-2 rounded border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-500"
+//       onChange={(e) => setSortOrder(e.target.value)}
+//     >
+//       <option value="default">Sort by</option>
+//       <option value="lowToHigh">Price: Low to High</option>
+//       <option value="highToLow">Price: High to Low</option>
+//     </select>
+//   </div>
+
+//   {/* Cards Grid */}
+//   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+//     {finalItems.map((product) => (
+//       <div
+//         key={product.id}
+//         className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 border"
+//       >
+//         {/* Image */}
+//         <Link to={`/product/${product.id}`}>
+//           <div className="w-full h-64 flex items-center justify-center overflow-hidden">
+//             <img
+//               src={product.image}
+//               alt={product.title}
+//               className="object-contain h-full max-w-full transition-transform duration-300 hover:scale-105"
+//             />
+//           </div>
+//         </Link>
+
+//         {/* Info */}
+//         <div className="p-4">
+//           <Link to={`/product/${product.id}`}>
+//             <div className="flex justify-between items-center">
+//               <p className="text-pink-600 text-sm hover:underline">See more</p>
+//               <div className="text-yellow-500 text-sm flex items-center gap-1">
+//                 ⭐ {product.rating?.rate || 4.3}
+//               </div>
+//             </div>
+//             <p className="text-gray-900 font-semibold text-lg mt-2">₹{product.price}</p>
+//           </Link>
+
+//           {/* Add to Cart */}
+//           <button
+//             onClick={() => handleAddToCart(product)}
+//             className="mt-4 w-full bg-pink-600 hover:bg-pink-700 text-white text-sm py-2 rounded-lg transition-all duration-200"
+//           >
+//             ➕ Add to Cart
+//           </button>
+//         </div>
+//       </div>
+//     ))}
+//   </div>
+// </div>
+
+//   );
+// };
+
+// export default ShopSection;
+
+
+
+
+
+
+
+// import { useParams, Link } from 'react-router-dom';
+// import React, { useEffect, useState } from 'react';
+// import { useDispatch } from 'react-redux';
+// import { addToCart } from '../redux/cartslice';
+
+// const ShopSection = () => {
+//   const { category } = useParams();
+//   const [items, setItems] = useState([]);
+//   const [sortOrder, setSortOrder] = useState("default");
+//   const dispatch = useDispatch();
+
+//   useEffect(() => {
+//     const DataFetch = async () => {
+//       const response = await fetch("https://fakestoreapi.com/products");
+//       const data = await response.json();
+//       setItems(data);
+//     };
+//     DataFetch();
+//   }, [category]);
+
+//   const handleAddToCart = (item) => {
+//     dispatch(addToCart(item));
+//   };
+
+//   // Step 1: Filter based on category
+//   const filteredItems = items.filter((item) => {
+//     if (!category) return true;
+//     if (category === "men") return item.category === "men's clothing";
+//     if (category === "women") return item.category === "women's clothing";
+//     if (category === "electronics") return item.category === "electronics";
+//     return true;
+//   });
+
+//   // Step 2: Sort filtered items
+//   const getSortedItems = () => {
+//     if (sortOrder === "lowToHigh") {
+//       return [...filteredItems].sort((a, b) => a.price - b.price);
+//     } else if (sortOrder === "highToLow") {
+//       return [...filteredItems].sort((a, b) => b.price - a.price);
+//     } else {
+//       return filteredItems;
+//     }
+//   };
+
+//   const finalItems = getSortedItems();
+
+//   return (
+//     <div className="w-full bg-gradient-to-t from-[#A6A6A8] to-[#f1f1f0]">
+//       {/* Sorting Dropdown */}
+//       <div className="flex justify-end w-full px-5 mt-4">
+//         <select
+//           className="p-2 rounded border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-500"
+//           onChange={(e) => setSortOrder(e.target.value)}
+//         >
+//           <option value="default">Sort by</option>
+//           <option value="lowToHigh">Price: Low to High</option>
+//           <option value="highToLow">Price: High to Low</option>
+//         </select>
+//       </div>
+
+//       {/* Flex Cards Container */}
+//       <div className="flex flex-wrap justify-center gap-6 p-6">
+//         {finalItems.map((product) => (
+//           <div
+//             key={product.id}
+//             className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 border w-full sm:w-[47%] md:w-[31%] lg:w-[23%]"
+//           >
+//             {/* Image */}
+//             <Link to={`/product/${product.id}`}>
+//               <div className="w-full h-64 flex items-center justify-center overflow-hidden">
+//                 <img
+//                   src={product.image}
+//                   alt={product.title}
+//                   className="object-contain h-full max-w-full transition-transform duration-300 hover:scale-105"
+//                 />
+//               </div>
+//             </Link>
+
+//             {/* Info */}
+//             <div className="p-4">
+//               <Link to={`/product/${product.id}`}>
+//                 <div className="flex justify-between items-center">
+//                   <p className="text-pink-600 text-sm hover:underline">See more</p>
+//                   <div className="text-yellow-500 text-sm flex items-center gap-1">
+//                     ⭐ {product.rating?.rate || 4.3}
+//                   </div>
+//                 </div>
+//                 <p className="text-gray-900 font-semibold text-lg mt-2">₹{product.price}</p>
+//               </Link>
+
+//               {/* Add to Cart */}
+//               <button
+//                 onClick={() => handleAddToCart(product)}
+//                 className="mt-4 w-full bg-pink-600 hover:bg-pink-700 text-white text-sm py-2 rounded-lg transition-all duration-200"
+//               >
+//                 ➕ Add to Cart
+//               </button>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ShopSection;
+
+
+
+showcard/////////////////////////////////////////
+
+// import React from "react";
+// import { useSelector, useDispatch } from "react-redux";
+// import { removeFromCart } from "./redux/cartslice";
+// import { increaseQuantity } from "./redux/cartslice";
+
+// const Showcart = () => {
+//   const cartItems = useSelector((state) => state.cart.cartItems);
+//   const dispatch = useDispatch();
+
+//   const handleRemoveFromCart = (id) => {
+//     dispatch(removeFromCart(id));
+//   };
+
+//   const handleIncreaseQuantity = (id) => {
+//     dispatch(increaseQuantity(id));
+//   };
+
+//   const calculateTotal = () => {
+//     return cartItems.reduce(
+//       (total, item) => total + item.price * item.quantity,
+//       0
+//     );
+//   };
+
+//   return (
+//     <div className="max-w-4xl mx-auto mt-10 px-4">
+//       <h1 className="text-3xl font-bold mb-6 text-center">🛒 Your Cart</h1>
+
+//       {cartItems.length === 0 ? (
+//         <p className="text-center text-gray-600 text-lg">
+//           Your cart is empty 😔
+//         </p>
+//       ) : (
+//         <div className="space-y-4">
+//           {cartItems.map((item) => (
+//             <div
+//               key={item.id}
+//               className="flex items-center justify-between bg-white shadow-md rounded-lg p-4"
+//             >
+//               {/* Product Info */}
+//               <div className="flex items-center gap-4">
+//                 <img
+//                   src={item.image}
+//                   alt={item.title}
+//                   className="w-20 h-20 object-contain rounded"
+//                 />
+//                 <div>
+//                   <h2 className="font-semibold text-gray-800">{item.title}</h2>
+//                   <p className="text-blue-600 font-medium mt-1">
+//                     ₹{item.price}
+//                   </p>
+//                   <p className="text-gray-600">Qty: {item.quantity}</p>
+//                   <button
+//                     onClick={() => handleIncreaseQuantity(item.id)}
+//                     className="bg-green-500 text-white px-2 py-1 rounded text-sm mt-1 hover:bg-green-600"
+//                   >
+//                     ➕ Add One More
+//                   </button>
+//                 </div>
+//               </div>
+
+//               {/* Remove Button */}
+//               <button
+//                 onClick={() => handleRemoveFromCart(item.id)}
+//                 className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-all"
+//               >
+//                 ❌ Remove
+//               </button>
+//             </div>
+//           ))}
+
+//           {/* Total Section */}
+//           <div className="text-right mt-6">
+//             <h2 className="text-xl font-semibold text-gray-800">
+//               Total Amount: ₹{calculateTotal().toFixed(2)}
+//             </h2>
+//           </div>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default Showcart;
+
+// import React from "react";
+// import { useSelector, useDispatch } from "react-redux";
+// import { removeFromCart, increaseQuantity } from "./redux/cartslice";
+
+// const Showcart = () => {
+//   const cartItems = useSelector((state) => state.cart.cartItems);
+//   const dispatch = useDispatch();
+
+//   const handleRemoveFromCart = (id) => {
+//     dispatch(removeFromCart(id));
+//   };
+
+//   const handleIncreaseQuantity = (id) => {
+//     dispatch(increaseQuantity(id));
+//   };
+
+//   const calculateTotal = () => {
+//     return cartItems.reduce(
+//       (total, item) => total + item.price * item.quantity,
+//       0
+//     );
+//   };
+
+//   return (
+//     <div className="max-w-5xl mx-auto mt-10 px-4">
+//       <h1 className="text-4xl font-bold mb-10 text-center text-gray-800 underline decoration-pink-500 underline-offset-4">
+//         🛒 Your Shopping Cart
+//       </h1>
+
+//       {cartItems.length === 0 ? (
+//         <p className="text-center text-gray-600 text-lg">
+//           Your cart is empty 😔
+//         </p>
+//       ) : (
+//         <div className="space-y-6">
+//           {cartItems.map((item) => (
+//             <div
+//               key={item.id}
+//               className="flex flex-col md:flex-row justify-between items-center bg-white shadow-lg rounded-2xl p-4 border border-pink-200"
+//             >
+//               {/* Left: Image and Info */}
+//               <div className="flex items-center gap-4">
+//                 <img
+//                   src={item.image}
+//                   alt={item.title}
+//                   className="w-24 h-24 object-contain border border-gray-200 rounded-lg shadow"
+//                 />
+//                 <div>
+//                   <h2 className="font-semibold text-gray-800 text-lg">
+//                     {item.title}
+//                   </h2>
+//                   <p className="text-sm text-gray-600 mt-1">
+//                     ₹{item.price} × {item.quantity} ={" "}
+//                     <span className="font-semibold text-blue-600">
+//                       ₹{(item.price * item.quantity).toFixed(2)}
+//                     </span>
+//                   </p>
+
+//                   <button
+//                     onClick={() => handleIncreaseQuantity(item.id)}
+//                     className="mt-2 bg-pink-500 text-white px-3 py-1 rounded-md text-sm hover:bg-pink-600 transition"
+//                   >
+//                     ➕ Add One More
+//                   </button>
+//                 </div>
+//               </div>
+
+//               {/* Right: Remove */}
+//               <button
+//                 onClick={() => handleRemoveFromCart(item.id)}
+//                 className="mt-4 md:mt-0 bg-red-500 text-white w-32 h-10 text-sm font-medium rounded-md hover:bg-red-600 transition-all duration-200"
+//               >
+//                 ❌ Remove
+//               </button>
+//             </div>
+//           ))}
+
+//           {/* Total Section */}
+//           <div className="text-right mt-10 border-t pt-6">
+//             <h2 className="text-2xl font-bold mb-10 text-gray-800">
+//               Total Amount:{" "}
+//               <span className="text-pink-600">
+//                 ₹{calculateTotal().toFixed(2)}
+//               </span>
+//             </h2>
+//           </div>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default Showcart;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

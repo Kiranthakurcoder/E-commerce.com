@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../redux/cartslice";
-import Navbar from "./Navbar";
-import FeatureSection from "./FeatureSection";
-import Footer from "./Footer";
+import { addToCart } from "../../redux/cartslice";
+import Navbar from "../Navbar";
+import FeatureSection from "../FeatureSection";
+import Footer from "../Footer";
 
 const ProductDetails = () => {
   const { id } = useParams();

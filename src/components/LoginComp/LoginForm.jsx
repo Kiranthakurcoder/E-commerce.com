@@ -17,7 +17,7 @@ const LoginForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:3000/api/login", {  // 🔧 backend port 3000
+    const res = await fetch("https://dbresume-com.onrender.com/api/login", {  
       method: "POST",
       headers: {
         "Content-Type": "application/json",
